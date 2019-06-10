@@ -8,6 +8,10 @@ exports.linkResolver = function linkResolver(doc) {
     return '/blog/' + doc.uid;
   }
 
+  if (doc.type === 'documents_page') {
+    return '/blog/documents';
+  }
+
   // Homepage route fallback
   return '/';
 }

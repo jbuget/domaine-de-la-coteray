@@ -1,5 +1,6 @@
+import FileList from './FileList'
 import ImageCaption from './ImageCaption'
 import Quote from './Quote'
 import Text from './Text'
 
-export { ImageCaption, Quote, Text }
+export { FileList, ImageCaption, Quote, Text }
